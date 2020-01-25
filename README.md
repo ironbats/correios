@@ -2,13 +2,13 @@
 sample API integration with correios 
 
 
-#Swagger link 
+# Swagger link 
 http://localhost:8080/swagger-ui.html#!/
 
 
 
 
-#JSON OF RETURN
+# JSON OF RETURN
 
 {
   "neighborhood": "Canindé",
@@ -21,7 +21,7 @@ http://localhost:8080/swagger-ui.html#!/
 
 
 
-#HOW TO IMPORT WSDL
+# HOW TO IMPORT WSDL
 run this command in a past that your preference </br>
 
 <p>wsimport -keep -verbose  https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl </p>
