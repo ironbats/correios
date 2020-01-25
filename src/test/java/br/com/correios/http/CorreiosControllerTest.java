@@ -82,4 +82,14 @@ public class CorreiosControllerTest {
 
 
     }
+
+    @Test(expected = Exception.class)
+    public void testErrorApiConsultCep(){
+        CorreiosResult cb = getBuild();
+        CorreiosResult result = correiosService.getCorreiosResultByCep("");
+        Assert.assertEquals(cb.getAddress(), result.getAddress());
+        Assert.assertEquals(cb.getCep(), result.getCep());
+        Assert.assertEquals(cb.getCity(), result.getCity());
+        Assert.assertEquals(cb.getUF(), result.getUF());
+    }
 }
