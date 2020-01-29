@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 ##class java
-*.class
+br/com/correios/bsb/sigep/master/bean/cliente/*.class
 
 
 ### IntelliJ IDEA ###
